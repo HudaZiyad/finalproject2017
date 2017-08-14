@@ -219,68 +219,13 @@ document.getElementById("myLink").click();
 To use this code on your website, get a free API key from Google.
 Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
 -->
-<ul id="playlist">
-           <li class="active">
-               <a href="http://www.codenamejupiterx.com/song/soundtest.mp3">
-                  soundtest
-               </a>
-           </li>
-           <li>
-               <a href="http://www.codenamejupiterx.com/song/soundtest2.mp3">
-                   soundtest2
-               </a>
-           </li>
-           <li>
-               <a href="http://www.codenamejupiterx.com/song/soundtest3.mp3">
-                   soundtest3
-               </a>
-           </li>
-       </ul>
-
-       <script>
-           var audio;
-           var playlist;
-           var tracks;
-           var current;
-
-           init();
-           function init(){
-               current = 0;
-               audio = $('#audio');
-               playlist = $('#playlist');
-               tracks = playlist.find('li a');
-               len = tracks.length - 1;
-               audio[0].volume = .10;
-               audio[0].play();
-               playlist.find('a').click(function(e){
-                   e.preventDefault();
-                   link = $(this);
-                   current = link.parent().index();
-                   run(link, audio[0]);
-               });
-               audio[0].addEventListener('ended',function(e){
-                   current++;
-                   if(current == len){
-                       current = 0;
-                       link = playlist.find('a')[0];
-                   }
-                   else{
-                       link = playlist.find('a')[current];
-                   }
-                   run($(link),audio[0]);
-               });
-           }
-
-           function run(link, player){
-               player.src = link.attr('href');
-               par = link.parent();
-               par.addClass('active').siblings().removeClass('active');
-               audio[0].load();
-               audio[0].play();
-           }
-       </script>
-</body>
-</html>
+<div id="cp_widget_1dd7fc45-7215-47b0-8eb0-0df1d0fdd13b">...</div><script type="text/javascript">
+var cpo = []; cpo["_object"] ="cp_widget_1dd7fc45-7215-47b0-8eb0-0df1d0fdd13b"; cpo["_fid"] = "AcHAfCelTPo0";
+var _cpmp = _cpmp || []; _cpmp.push(cpo);
+(function() { var cp = document.createElement("script"); cp.type = "text/javascript";
+cp.async = true; cp.src = "//www.cincopa.com/media-platform/runtime/libasync.js";
+var c = document.getElementsByTagName("script")[0];
+c.parentNode.insertBefore(cp, c); })(); </script><noscript><span>no name</span></noscript>
 
 </body>
 </html>
