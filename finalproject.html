@@ -16,6 +16,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
     min-height: 90%;
 }
 </style>
+
 <body>
 
 <!-- Navbar (sit on top) -->
@@ -25,6 +26,28 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
     <a href="#menu" class="w3-bar-item w3-button">ARTICLES</a>
     <a href="#about" class="w3-bar-item w3-button">ABOUT</a>
     <a href="#googleMap" class="w3-bar-item w3-button">CONTACT</a>
+    <input type="text" name="search" placeholder="Search..">
+    <style>
+input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('');
+    background-position: 5px 5px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 100%;
+}
+</style>
+
   </div>
 </div>
 
@@ -142,8 +165,8 @@ body {font-family: "Amatic SC", sans-serif;}
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
-  position: relative;
+  max-width: 500px;
+  position:  relative;
   margin: auto;
 }
 
@@ -201,7 +224,7 @@ body {font-family: "Amatic SC", sans-serif;}
 }
 
 /* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 200px) {
   .text {font-size: 11px}
 }
 </style>
@@ -258,7 +281,7 @@ function showSlides() {
     }
     slides[slideIndex-1].style.display = "block";
     dots[slideIndex-1].className += " active";
-    setTimeout(showSlides, 2000); // Change image every 2 seconds
+    setTimeout(showSlides, 5000); // Change image every 2 seconds
 }
 </script>
 
