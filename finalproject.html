@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<html lang="en-US">
 <html>
 <head>
 <title>W3.CSS Template</title>
@@ -8,39 +7,6 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC">
 <style>
-#myBtn {
-  display: none;
-  position: fixed;
-  bottom: 20px;
-  right: 30px;
-  z-index: 99;
-  border: none;
-  outline: none;
-  background-color: lightpink;
-  color: white;
-  cursor: pointer;
-  padding: 15px;
-  border-radius: 10px;
-}
-
-#myBtn:hover {
-  background-color: #555;
-}
-
-.parallax {
-    /* The image used */
-    background-image: url("https://m.popkey.co/0a0d8e/YR013.gif");
-
-    /* Set a specific height */
-    min-height: 500px;
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 body, html {height: 100%}
 body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
 .menu {display: none}
@@ -51,14 +17,326 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
     min-height: 90%;
 }
 
+</style>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("#articleBody1").hide();
+    $("#articleTitle1").click(function(){
+    if ($("#articleBody1").is(":visible")){
+          $("#articleBody1").hide();
+    }
+    else if ($("#articleBody1").is(":hidden")) {
+      $("#articleBody1").show();
+    }
+  });
+});
+</script>
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("#articleBody2").hide();
+    $("#articleTitle2").click(function(){
+    if ($("#articleBody2").is(":visible")){
+          $("#articleBody2").hide();
+    }
+    else if ($("#articleBody2").is(":hidden")) {
+      $("#articleBody2").show();
+    }
+  });
+});
+</script>
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("#articleBody3").hide();
+    $("#articleTitle3").click(function(){
+    if ($("#articleBody3").is(":visible")){
+          $("#articleBody3").hide();
+    }
+    else if ($("#articleBody3").is(":hidden")) {
+      $("#articleBody3").show();
+    }
+  });
+});
+</script>
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("#articleBody4").hide();
+    $("#articleTitle4").click(function(){
+    if ($("#articleBody4").is(":visible")){
+          $("#articleBody4").hide();
+    }
+    else if ($("#articleBody4").is(":hidden")) {
+      $("#articleBody4").show();
+    }
+  });
+});
+</script>
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("#articleBody5").hide();
+    $("#articleTitle5").click(function(){
+    if ($("#articleBody5").is(":visible")){
+          $("#articleBody5").hide();
+    }
+    else if ($("#articleBody5").is(":hidden")) {
+      $("#articleBody5").show();
+    }
+  });
+});
+</script>
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("#articleBody6").hide();
+    $("#articleTitle6").click(function(){
+    if ($("#articleBody6").is(":visible")){
+          $("#articleBody6").hide();
+    }
+    else if ($("#articleBody6").is(":hidden")) {
+      $("#articleBody6").show();
+    }
+  });
+});
+</script>
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("#articleBody7").hide();
+    $("#articleTitle7").click(function(){
+    if ($("#articleBody7").is(":visible")){
+          $("#articleBody7").hide();
+    }
+    else if ($("#articleBody7").is(":hidden")) {
+      $("#articleBody7").show();
+    }
+  });
+});
+</script>
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("#articleBody8").hide();
+    $("#articleTitle8").click(function(){
+    if ($("#articleBody8").is(":visible")){
+          $("#articleBody8").hide();
+    }
+    else if ($("#articleBody8").is(":hidden")) {
+      $("#articleBody8").show();
+    }
+  });
+});
+</script>
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("#articleBody9").hide();
+    $("#articleTitle9").click(function(){
+    if ($("#articleBody9").is(":visible")){
+          $("#articleBody9").hide();
+    }
+    else if ($("#articleBody9").is(":hidden")) {
+      $("#articleBody9").show();
+    }
+  });
+});
+</script>
+
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top w3-hide-small">
+  <div class="w3-bar w3-xlarge w3-black w3-opacity w3-hover-opacity-off" id="myNavbar">
+    <a href="#" class="w3-bar-item w3-button">HOME</a>
+    <a href="#menu" class="w3-bar-item w3-button">ARTICLES</a>
+    <a href="#about" class="w3-bar-item w3-button">ABOUT</a>
+    <a href="#googleMap" class="w3-bar-item w3-button">CONTACT</a>
+    <div id="google_translate_element"></div>
+
+    <script type="text/javascript">
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+    }
+    </script>
+
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+  </div>
+</div>
+
+<!-- Header with image -->
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-bottomleft w3-padding">
+
+  </div>
+  <br>
+  <br>
+  <br>
+
+  <div class="w3-display-middle w3-center">
+    <span class="w3-text-white w3-hide-large w3-hide-medium" style="font-size:60px"><b>BOI BYE!<br></b></span>
+  </div>
+</header>
+
+<!-- Menu Container -->
+<div class="w3-container w3-black w3-padding-64 w3-xxlarge" id="menu">
+  <div class="w3-content">
+
+    <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">THE ARTICLES</h1>
+    <div class="w3-row w3-center w3-border w3-border-dark-grey clicked">
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Pizza');" id="myLink">
+        <div class="w3-col s4 tablink w3-padding-large w3-hover-white">FEMINISM</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Pasta');">
+        <div class="w3-col s4 tablink w3-padding-large w3-hover-white">ACTIVISM</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Starter');">
+        <div class="w3-col s4 tablink w3-padding-large w3-hover-white">INTERSSCTIONAL</div>
+      </a>
+    </div>
+
+    <div id="Pizza" class="w3-container menu w3-padding-32 w3-white">
+      <h1 id="articleTitle7"><b>Domestic Violence/Violence Againist Women</b> <span class="w3-right w3-tag w3-dark-grey w3-round">06/26/2017</span></h1>
+      <p class="w3-text-grey" id="articleBody7">Recognize domestic violence. </br>
+      </br>
+Domestic violence also known as ‘intimate partner violence’ occurs between people in an intimate relationship. Domestic violence can take on as many forms: emotional, physical and sexual abuse, and/or threats of abuse. Men are also abused by partners but domestic violence is most often directed towards women. Domestic violence can happen in any kind of intimate relationship. Abusive relationships always involve an imbalance of power and control. An abuser uses intimidating, hurtful words and behaviors to control his or her partner. It might not be easy to identify domestic violence at first. While some relationships are clearly abusive from the outset, abuse often starts subtly and gets worse over time. You might be experiencing domestic violence if you're in a relationship with someone who:
+</br> 1)Calls you names, insults you or puts you down
+</br> 2)Prevents or discourages you from going to work or school or seeing family members or friends
+</br> 3)Tries to control how you spend money, where you go, what medicines you take or what you wear
+</br> 4)Acts jealous or possessive or constantly accuses you of being unfaithful
+</br> 5)Gets angry when drinking alcohol or using drugs
+</br> 6)Threatens you with violence or a weapon
+</br> 7)Hits, kicks, shoves, slaps, chokes or otherwise hurts you, your children or your pets
+</br> 8)Forces you to have sex or engage in sexual acts against your will
+</br> 9)Blames you for his or her violent behavior or tells you that you deserve it
+</br> 10)Calls you names, insults you or puts you down
+</br> 11)Prevents or discourages you from going to work or school or seeing family members or friends
+</br> 12)Tries to control how you spend money, where you go, what medicines you take or what you wear
+</br> 13)Acts jealous or possessive or constantly accuses you of being unfaithful
+</br> 14)Gets angry when drinking alcohol or using drugs
+</br> 15)Threatens you with violence or a weapon
+</br> 16)Hits, kicks, shoves, slaps, chokes or otherwise hurts you, your children or your pets
+</br> 17)Forces you to have sex or engage in sexual acts against your will.
+</br>
+</br>No one should have to experience domestic violence. Contact authorities, loved ones you trust, and/or the domestic violence hotline 1(800)799-7233. No one should have to go through this.
+</p>
+      <hr>
+
+      <h1 id="articleTitle8"><b>How Women Are Protrayed.</b> <span class="w3-right w3-tag w3-dark-grey w3-round">07/03/2017</span></h1>
+      <p class="w3-text-grey" id="articleBody8">A R T I C L E N U M B E R T W O</p>
+      <hr>
+
+      <h1 id="articleTitle9"><b>Women Can Wear Whatever They Want!</b> <span class="w3-right w3-tag w3-dark-grey w3-round">07/10/2017</span></h1>
+      <p class="w3-text-grey" id="articleBody9">It seems like everyone has an opinion on what girls and women are allowed to wear but I think it’s time let everyone wear whatever they want to wear! It has become a norm in our society to always seem to have an opinion on what women should look like, what they should wear, or what they shouldn't but why don’t we start letting everyone feel comfortable in what they choose to be in. Women are always forced into these impossible expectations of what they should dress like. For example, we want women to be sexy yet dress modest at the same. We expect too much from women and hold them to such a high standard yet don’t expect nearly a fraction of these expectations for men. We also should stop making judgements off of someone if they dress a certain way. If a girl is wearing revealing clothes it doesn’t make her a whore or any less of a woman that deserves respect. As well as women who choose to dress more modestly like a muslim woman in a burka or hijab, what they wear is a choice and don’t need you ‘saving’, they are not oppressed. It goes both ways. Women should dress sexy or dress modestly if they choose to. That’s all it should be at the end of the day. Whatever any woman chooses to wear as long they are comfortable and happy in it why should we care? We shouldn’t.</p>
+      <hr>
+
+
+    </div>
+
+    <div id="Pasta" class="w3-container menu w3-padding-32 w3-white">
+      <h1 id="articleTitle1"><b>We've Come So Far But...</b> <span class="w3-tag w3-grey w3-round"></span> <span class="w3-right w3-tag w3-dark-grey w3-round">07/17/2017</span></h1>
+      <p class="w3-text-grey" id="articleBody1">And even though we’ve come so far, we have a long way to go...
+      </br>
+      </br>I always hear the civil rights movement talked about as a thing of the past. A blip in American history. That racism is basically over because we elected a black president for 2 terms and that affirmative action is a thing. I mean what else needs to be checked off the end-racism to do list right? I mean other mass incarceration, wage gap between whites and minorities, employment, education, housing, surveillance, healthcare. I mean the list goes on. And I think it’s time that other start realizing that just because we don’t have colored and white water fountains anymore that it still isn’t as big of an issue it was when Dr. Martin Luther King marched the streets of Selma and Washington.
+Systemic racism are forms of racism which are structured into political, economical, and social institutions and organizations.
+It’s described as less in your face prejudice and bias. It exists at every level of society. Here are a few ways we know systemic racism exists.
+</br>
+</br> 1) Criminal justice system and racial disparity in incarceration. The united states of america is 5% of the world's population, yet it is a quarter of the world’s prisoners. African americans make up 12-13% of the U.S population but we are 40% of inmates in prison. Black people are incarcerated at nearly 6 times that rate of whites for the same crimes. About 14 million white people are reported using an illicit drug vs. 2.6 million african americans yet we get charged at 10x the rate of caucasians. Not only that america’s criminal justice system seems to think that racially motivated killings are justifiable. That police can kill black men and women and not even get indicted. That they can claim to feel threatened with no evidence to back their claims. You can imagine how frustrating that is for the families of the victims of police brutality and how terrifying it is for those of us who look like those victims.
+</br>
+</br> 2)Some contributing factors to this would be get tough on crimes and the fake war on drug policies, harsher punishments for black students in schools which I have experienced in my school career.
+</br>
+</br> 3) While we’re at it let’s discuss racial bias in education. Although black students constitute 18% of preschoolers nationwide, they make up 50% of suspensions. And when all grades are analyzed black students are 3x more likely to be suspended than white students for the same infractions. Educators and administration in high schools, middle schools and so on really need to work on treating all students fairly and make minorities feel comfortable at their schools. As a black muslim woman i can honestly say I don’t feel completely comfortable here because i have experienced a teacher treating me and other students differently because of race unconscious or not.
+</p>
+      <hr>
+
+      <h1 id="articleTitle2"><b>Low Conviction Rate.</b> <span class="w3-right w3-tag w3-dark-grey w3-round">07/24/2017</span></h1>
+      <p class="w3-text-grey" id="articleBody2">A R T I C L E N U M B E R T W O</p>
+      <hr>
+
+      <h1 id="articleTitle3"><b>Fetishiziation</b> <span class="w3-right w3-tag w3-dark-grey w3-round">07/31/2017</span></h1>
+      <p class="w3-text-grey" id="articleBody3">A R T I C L E N U M B E R T H R E E</p>
+      <hr>
+
+
+    </div>
+
+
+    <div id="Starter" class="w3-container menu w3-padding-32 w3-white">
+      <h1 id="articleTitle4"><b>Wage Gap</b> <span class="w3-tag w3-grey w3-round"></span><span class="w3-right w3-tag w3-dark-grey w3-round">08/07/2017</span></h1>
+      <p class="w3-text-grey" id="articleBody4">We do the same work but I get paid less? </br>
+      </br>
+The wage gap has been one of the biggest topics and issues in modern day feminism. But why does the wage gap even exists. Most would think it’s because we live in a patriarchal society and corporate america and media jobs don’t appreciate and recognize women for the work that do over their male counterparts which does hold some truth but isn’t the whole story. The gender gap in pay has narrowed since 1980, particularly among younger workers, but it still persists. In 2015, women earned 83% of what men earned, according to a Pew Research Center analysis of median hourly earnings of both full- and part-time U.S. workers. Although the pay gaps have decreased in recent times and a lot of companies are bridging the gap between the pay why does the wage gap exists in the first place? There have been many studies conducted that show that women are more likely to take extended vacations, reduce their work hours, quit a job, and/or turn down a promotion. These type of interruptions have can have an impact on long time earnings and salaries in the work force. Even though women have increased their presence in higher-paying jobs traditionally dominated by men, such as professional and managerial positions, women as a whole continue to be overrepresented in lower-paying occupations, and this may also contribute to gender differences in pay. But these studies mostly focus on white women in their surveys conducted. What about Black women who make 64 cents to the white man's dollar, Latina women who make 54 centss to the white man's dollar, and native american women who make 59 cents to the white man's dollar. The wage gap may be bad for white women but it’s even worse for women of color because the racial disparity in the wage gap hasn’t made any improvements in the 35 years according to TIME. So the next time you’re fighting the fight of bridging the wage gap keep in mind all women.
+</p>
+      <hr>
+
+      <h1 id="articleTitle5"><b>Why We Need Intersectional Feminism!!!</b> <span class="w3-right w3-tag w3-dark-grey w3-round">08/14/2017</span></h1>
+      <p class="w3-text-grey" id="articleBody5">Many women in recent years with the new wave of feminism have denounced that title, claiming to not be a feminist, but what does feminism really mean?
+fem·i·nist
+</br>
+</br>
+ˈfeməˌnizəm/- A person who believes in the social,political, and economical equality of the sexes. Meaning equality for all races, genders, and economic background. Now all feminists don’t really apply this in their day to day lives but the ones that do are referred to as intersectional feminists. The “good” feminists, but what's the difference between intersectional feminism and white feminism? White feminism generally chooses to focus on trivial matters  such free the nipple, free bleeding, and menstrual products needing to be free. Feminism should focus on issues that affect all women and speak out about the issues that also affect the marginalized in the feminist community. We’ve seen tons of media coverage on issues like wage gap and how it affects “women” meaning white women make 81 cents to a white man's dollar but black women make 65 cents to a white man's dollar and hispanic women at 59 cents.
+  </br>
+</br>
+A professor of Asian American and Gender Studies at UCLA, Hong says for decades, white women didn't have to consider any interests beyond their own because "historically, the category 'woman' has, implicitly, meant white women." The call to put womanhood above all else, Hong says, is based on the idea that "critique and dissent undermine a unity that's based on the lowest common denominator: Find the one thing everyone has in common." We need intersectional feminism because it advocates for all women not just the ones privileged enough to only worry about being a woman.
+</p>
+      <hr>
+
+      <h1 id="articleTitle6"><b>Female Genital Mutilation </b> <span class="w3-right w3-tag w3-dark-grey w3-round">08/21/2017</span></h1>
+      <p class="w3-text-grey" id="articleBody6">A R T I C L E N U M B E R T H R E E</p>
+      <hr>
+
+
+    </div><br>
+
+  </div>
+</div>
+
+<!-- About Container -->
+<div class="w3-container w3-padding-64 w3-red w3-grayscale w3-xlarge" id="about">
+  <div class="w3-content">
+    <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">About</h1>
+    <p>Welcome to BOIBYE! This website is for care free women that don't care about social standards. The founders, Fahima, Tai, Huda and Alli wanted the users of this website to feel welcomed and feel like they are apart of a community. We created this website because we saw the lack of blogs that were clean cut and straight forward. With this blog, nothing is sugar coated because the world is salty ✨ </p>
+    <p><strong>Fahima Mohammed:</strong> Article writer </p>
+    <p><strong>Tai Cooper:</strong> Editor <p>
+    <p><Strong>Huda Ziyad:</strong> Back end designer </p>
+    <p><strong>Alli Lapchis:</strong> Audio selector </p>
+    <img src="/w3images/onepage_restaurant.jpg" style="width:100%" class="w3-margin-top w3-margin-bottom" alt="Restaurant">
+    <h1><b>Uploading dates</b></h1>
+
+    <div class="w3-row">
+      <div class="w3-col s6">
+        <p>Monday Blog Posts</p>
+        <p>Friday Advice Column Post</p>
+        <p>Sunday Whats Hot</p>
+      </div>
+
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- Contact (with google maps) -->
+<style>
 * {box-sizing:border-box}
 body {font-family: "Amatic SC", sans-serif;}
 .mySlides {display:none}
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 500px;
-  position:  relative;
+  max-width: 1000px;
+  position: relative;
   margin: auto;
 }
 
@@ -116,179 +394,10 @@ body {font-family: "Amatic SC", sans-serif;}
 }
 
 /* On smaller screens, decrease text size */
-@media only screen and (max-width: 200px) {
+@media only screen and (max-width: 300px) {
   .text {font-size: 11px}
 }
 </style>
-
-</head>
-<body>
-
-<!-- Navbar (sit on top) -->
-<div class="w3-top w3-hide-small">
-  <div class="w3-bar w3-xlarge w3-black w3-opacity w3-hover-opacity-off" id="myNavbar">
-    <a href="#" class="w3-bar-item w3-button">HOME</a>
-    <a href="#menu" class="w3-bar-item w3-button">ARTICLES</a>
-    <a href="#about" class="w3-bar-item w3-button">ABOUT</a>
-    <a href="#googleMap" class="w3-bar-item w3-button">CONTACT</a>
-  </div>
-</div>
-
-
-
-
-<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-
-
-
-
-<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-
-
-<script>
-// When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        document.getElementById("myBtn").style.display = "block";
-    } else {
-        document.getElementById("myBtn").style.display = "none";
-    }
-}
-
-
-// When the user clicks on the button, scroll to the top of the document
-function topFunction() {
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
-}
-</script>
-
-
-
-  </div>
-</div>
-
-<!-- Header with image -->
-<header class="bgimg w3-display-container w3-grayscale-min" id="home">
-  <div class="parallax"></div>
-
-  <div class="w3-display-bottomleft w3-padding">
-
-  </div>
-  <br>
-  <br>
-  <br>
-
-  <div class="w3-display-middle w3-center">
-    <span class="w3-text-white w3-hide-large w3-hide-medium" style="font-size:60px"><b>BOI BYE!<br></b></span>
-  </div>
-</header>
-
-<!-- Menu Container -->
-<div class="w3-container w3-black w3-padding-64 w3-xxlarge" id="menu">
-  <div class="w3-content">
-
-    <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">THE ARTICLES</h1>
-    <div class="w3-row w3-center w3-border w3-border-dark-grey clicked">
-      <a href="javascript:void(0)" onclick="openMenu(event, 'Pizza');" id="myLink">
-        <div class="w3-col s4 tablink w3-padding-large w3-hover-white">FEMINISM</div>
-      </a>
-      <a href="javascript:void(0)" onclick="openMenu(event, 'Pasta');">
-        <div class="w3-col s4 tablink w3-padding-large w3-hover-white">ACTIVISM</div>
-      </a>
-      <a href="javascript:void(0)" onclick="openMenu(event, 'Starter');">
-        <div class="w3-col s4 tablink w3-padding-large w3-hover-white">INTERSSCTIONAL</div>
-      </a>
-    </div>
-
-    <div id="Pizza" class="w3-container menu w3-padding-32 w3-white">
-      <h1><b>Domestic Violence/Violence Againist Women</b> <span class="w3-right w3-tag w3-dark-grey w3-round">01/14/2017</span></h1>
-      <p class="w3-text-grey">Fresh tomatoes, fresh mozzarella, fresh basil</p>
-      <hr>
-
-      <h1><b>How Women Are Protrayed.</b> <span class="w3-right w3-tag w3-dark-grey w3-round">01/14/2017</span></h1>
-      <p class="w3-text-grey">Four cheeses (mozzarella, parmesan, pecorino, jarlsberg)</p>
-      <hr>
-
-      <h1><b>Women Can Wear Whatever They Want!</b> <span class="w3-right w3-tag w3-dark-grey w3-round">01/14/2017</span></h1>
-      <p class="w3-text-grey">Fresh tomatoes, mozzarella, chicken, onions</p>
-      <hr>
-
-
-    </div>
-
-    <div id="Pasta" class="w3-container menu w3-padding-32 w3-white">
-      <h1><b>We've Come So Far But...</b> <span class="w3-tag w3-grey w3-round"></span> <span class="w3-right w3-tag w3-dark-grey w3-round">01/14/2017</span></h1>
-      <p class="w3-text-grey">Special sauce, mozzarella, parmesan, ground beef</p>
-      <hr>
-
-      <h1><b>Low Conviction Rate.</b> <span class="w3-right w3-tag w3-dark-grey w3-round">01/14/2017</span></h1>
-      <p class="w3-text-grey">Ravioli filled with cheese</p>
-      <hr>
-
-      <h1><b>Fetishiziation</b> <span class="w3-right w3-tag w3-dark-grey w3-round">01/14/2017</span></h1>
-      <p class="w3-text-grey">Fresh tomatoes, onions, ground beef</p>
-      <hr>
-
-
-    </div>
-
-
-    <div id="Starter" class="w3-container menu w3-padding-32 w3-white">
-      <h1><b>Wage Gap</b> <span class="w3-tag w3-grey w3-round"></span><span class="w3-right w3-tag w3-dark-grey w3-round">08/14/2017</span></h1>
-      <p class="w3-text-grey">Ask the waiter</p>
-      <hr>
-
-      <h1><b>Why We Need Intersectional Feminism!!!</b> <span class="w3-right w3-tag w3-dark-grey w3-round">01/14/2017</span></h1>
-      <p class="w3-text-grey">Bread with pesto, tomatoes, onion, garlic</p>
-      <hr>
-
-      <h1><b>Female Genital Mutilation </b> <span class="w3-right w3-tag w3-dark-grey w3-round">01/14/2017</span></h1>
-      <p class="w3-text-grey">Grilled ciabatta, garlic butter, onions</p>
-      <hr>
-
-
-    </div><br>
-
-  </div>
-</div>
-<div id="google_translate_element"></div>
-
-<script type="text/javascript">
-function googleTranslateElementInit() {
-  new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
-}
-</script>
-
-<script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-
-<!-- About Container -->
-<div class="w3-container w3-padding-64 w3-red w3-grayscale w3-xlarge" id="about">
-  <div class="w3-content">
-    <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">About</h1>
-    <p>Welcome to BOIBYE! This website is for care free women that don't care about social standards. The founders, Fahima, Tai, Huda and Alli wanted the users of this website to feel welcomed and feel like they are apart of a community. We created this website because we saw the lack of blogs that were clean cut and straight forward. With this blog, nothing is sugar coated because the world is salty ✨ </p>
-    <p><strong>Fahima Mohammed:</strong> Article writer </p>
-    <p><strong>Tai Cooper:</strong> Editor <p>
-    <p><Strong>Huda Ziyad:</strong> Back end designer </p>
-    <p><strong>Alli Lapchis:</strong> Audio selector </p>
-    <img src="/w3images/onepage_restaurant.jpg" style="width:100%" class="w3-margin-top w3-margin-bottom" alt="Restaurant">
-    <h1><b>Uploading dates</b></h1>
-
-    <div class="w3-row">
-      <div class="w3-col s6">
-        <p>Monday Blog Posts</p>
-        <p>Friday Advice Column Post</p>
-        <p>Sunday Whats Hot</p>
-      </div>
-
-      </div>
-    </div>
-
-  </div>
-</div>
-
 
 <h2>Inspiring Women</h2>
 
@@ -340,23 +449,17 @@ function showSlides() {
     }
     slides[slideIndex-1].style.display = "block";
     dots[slideIndex-1].className += " active";
-    setTimeout(showSlides, 5000); // Change image every 2 seconds
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
 }
 </script>
 
-
-<!-- Contact (with google maps) -->
-
-
-
-
     <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">Contact</h1>
-    <h2> Call us at (206)631-0870 or email us.</h2>
-    <h2><span class="w3-tag">Give Us The Tea☕️</span> We are looking for advocates to speak their truths and send us their thoughts✨.</h2>
+    <p> Call us at (206)631-0870 or email us.</p>
+    <p><span class="w3-tag">Give Us The Tea☕️</span> We are looking for advocates to speak their truths and send us their thoughts✨.</p>
 
     <form action="https://formspree.io/boibye2018@gmail.com"
       method="POST">
-    <font size="5">
+    <font size="10">
     <input type="text" name="name" placeholder="Name">
     <input type="email" name="_replyto" placeholder="Email">
     <input type="text" name="comment" placeholder="Comment">
@@ -410,8 +513,7 @@ var _cpmp = _cpmp || []; _cpmp.push(cpo);
 (function() { var cp = document.createElement("script"); cp.type = "text/javascript";
 cp.async = true; cp.src = "//www.cincopa.com/media-platform/runtime/libasync.js";
 var c = document.getElementsByTagName("script")[0];
-c.parentNode.insertBefore(cp, c); })(); </script>
-<noscript><span>New Gallery 2017/8/14</span></noscript>
+c.parentNode.insertBefore(cp, c); })(); </script><noscript><span>New Gallery 2017/8/14</span></noscript>
 
 <!--
 
