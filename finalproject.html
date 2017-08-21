@@ -339,12 +339,9 @@ body {font-family: "Amatic SC", sans-serif;}
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
-  max-height: 1000px;
   position: relative;
   margin: auto;
 }
-
-/* Slideshow
 
 /* Caption text */
 .text {
@@ -400,13 +397,46 @@ body {font-family: "Amatic SC", sans-serif;}
 }
 
 /* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 150px) {
   .text {font-size: 11px}
+
 }
 </style>
 
+<h2>Inspiring Women</h2>
+
+<div id="googleMap" class="slideshow-container">
+
+<center>
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="1.jpg" style="width:50%">
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="2.jpg" style="width:50%">
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="3.jpg" style="width:50%">
+  <div class="text"></div>
+</div>
+</center>
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+</div>
 
 <script>
+
 var slideIndex = 0;
 showSlides();
 
